@@ -26,3 +26,12 @@ class Scraper:
         return (Stores.Argos.name,
                 float(soup.find("li", {"data-test": "product-price-primary"})
                         .get('content').strip()))
+
+    @staticmethod
+    def get_currys_price(url):
+        soup = Scraper._fetch_url(url)
+        return (Stores.Currys.name,
+                float(soup.find("strong", {"class": "current",
+                                           "data-key":"current-price"})
+                          .text.strip()[1:]))
+
