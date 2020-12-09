@@ -1,0 +1,38 @@
+[
+  {
+    "name": "scan",
+    "cssSelector": "div.category > div.productList.list > ul.productColumns li.product > div > div.priceAvailability > div.priceWishlistBuy > div.rightColumn > div.buyButton",
+    "cssSelectorValidator": "https://www.scan.co.uk/shop/gaming/gpu-nvidia/all#filter=1&categories=2351",
+    "urls": [
+      "https://www.scan.co.uk/shop/gaming/gpu-nvidia/nvidia-geforce-rtx-3070-graphics-cards",
+      "https://www.scan.co.uk/shop/gaming/gpu-nvidia/geforce-rtx-3060-ti-graphics-cards"
+    ]
+  },
+  {
+    "name": "overclockers",
+    "cssSelector": "span.delivery_container > div.Physical",
+    "cssSelectorValidator": "https://www.overclockers.co.uk/pc-components/graphics-cards/nvidia/geforce-rtx-3090",
+    "urls": [
+      "https://www.overclockers.co.uk/pc-components/graphics-cards/nvidia/geforce-rtx-3070",
+      "https://www.overclockers.co.uk/pc-components/graphics-cards/nvidia/geforce-rtx-3060-ti"
+    ]
+  },
+  {
+    "name": "ccl",
+    "cssSelector": "div.addtobasket > a.btnAddToBasket",
+    "cssSelectorValidator": "https://www.cclonline.com/category/430/PC-Components/Graphics-Cards/NVIDIA-Chipset-Graphics-Cards/attributeslist/1267039/",
+    "urls": [
+      "https://www.cclonline.com/category/430/PC-Components/Graphics-Cards/NVIDIA-Chipset-Graphics-Cards/attributeslist/1267056/",
+      "https://www.cclonline.com/category/430/PC-Components/Graphics-Cards/NVIDIA-Chipset-Graphics-Cards/attributeslist/1267059/"
+    ]
+  },
+  {
+    "name": "ebuyer",
+    "cssSelector": "#grid-view > div.grid-item .grid-item__buttons button.js-add-to-mini-basket",
+    "cssSelectorValidator": "https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3090",
+    "urls": [
+      "https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3070",
+      "https://www.ebuyer.com/store/Components/cat/Graphics-Cards-Nvidia/subcat/GeForce-RTX-3060-Ti"
+    ]
+  }
+]
