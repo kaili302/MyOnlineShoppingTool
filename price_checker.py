@@ -1,4 +1,3 @@
-# pip install urllib3 beautifulsoup4
 from scraper import Scraper
 
 from enum import Enum

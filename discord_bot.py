@@ -1,12 +1,7 @@
-# pip install -U discord.py
-# pip install -U python-dotenv
-
 import os
-# import request
 
 import discord
 from dotenv import load_dotenv
-from logger import log
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -31,7 +26,7 @@ class DiscordBot(discord.Client):
 
     async def on_ready(self):
         self.guild = discord.utils.find(lambda g: g.name == GUILD, self.guilds)
-        log(
+        print(
             f'{self.user} is connected to guild: '
             f'{self.guild.name}(id: {self.guild.id})'
         )
