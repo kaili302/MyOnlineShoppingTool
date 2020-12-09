@@ -2,24 +2,6 @@ import json
 import time
 from store import Store
 
-# def check_overclockers():
-    # # url = "https://www.overclockers.co.uk/pc-components/graphics-cards/nvidia/geforce-rtx-3090"
-    # url = "https://www.overclockers.co.uk/pc-components/graphics-cards/nvidia/geforce-rtx-3060-ti"
-    # soup = Scraper.fetch_url(url)
-    # found = soup.find("span", class_="delivery_container", partial=False)
-    # if found:
-        # DiscordBot.send(f"In stock: {url}")
-
-
-# def check_ccl():
-    # # url = "https://www.cclonline.com/category/430/PC-Components/Graphics-Cards/NVIDIA-Chipset-Graphics-Cards/"
-    # url = "https://www.cclonline.com/category/430/PC-Components/Graphics-Cards/NVIDIA-Chipset-Graphics-Cards/attributeslist/1267059/"
-    # soup = Scraper.fetch_url(url)
-    # found = soup.find("a", class_="btnAddToBasket", partial=False)
-    # if found:
-        # DiscordBot.send(f"In Stock: {url}")
-
-
 class StockChecker:
     def __init__(self, config):
         self.stores = StockChecker.load_stores(config)
