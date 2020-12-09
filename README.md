@@ -1,4 +1,5 @@
-## Search UK online store for lowest product price 
+## Search UK online stores for lowest product price and stock availability 
+Damn it's hard to get a RTX for my XMas   
 
 Currently can search sonos beam on Currys, Argos, John Lewis.<br> 
 `python sonos_price_matcher.py` for checking sonos beam price from different UK stores and send price to Discord server
