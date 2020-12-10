@@ -1,5 +1,4 @@
 ## Search UK online stores for lowest product price and stock availability 
-**It's damn hard to get a RTX for my XMas**   
 
 `python sonos_price_matcher.py` as an example for checking sonos beam price from different UK stores and send price to Discord server
 
