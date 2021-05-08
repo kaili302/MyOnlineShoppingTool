@@ -3,3 +3,4 @@ log
 .env
 sites.json
 requirements.txt
+*.swp
